@@ -3,7 +3,7 @@ const Homepage = ()=>{
     return (
         <div>
             <Layout>
-              <h1>Homepage</h1>
+              <h1>Homepage updated</h1>
             </Layout>
         </div>
     )
