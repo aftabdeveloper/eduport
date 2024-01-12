@@ -117,7 +117,7 @@ const Layout = ({children})=>{
             <section className="p-20">
                 {children}
             </section>
-            <footer className="flex justify-around bg-white shadow-inner">
+            <footer className="flex justify-around bg-white shadow-inner px-[5%]">
                 <div className="flex flex-col gap-2">
                     <Logo tagline/>
                     <div className="flex gap-6 font-semibold">
@@ -172,6 +172,14 @@ const Layout = ({children})=>{
                         <span>Toll free:+1234 568 963</span>
                         <span>(9:AM to 8:PM IST)</span>
                         <span>Email:example@gmail.com</span>
+                    </div>
+                    <div className="flex gap-3">
+                        <Link>
+                            <img src="./images/google-play.svg" alt="google play" className="w-[150px]" />
+                        </Link>
+                        <Link>
+                            <img src="./images/app-store.svg" alt="app store" className="w-[150px]" />
+                        </Link>
                     </div>
                 </div>
             </footer>
